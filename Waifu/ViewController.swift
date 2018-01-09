@@ -41,8 +41,25 @@ func assignBackground(VC:UIViewController, name:String) {
 
 class ViewController: UIViewController {
 
+    @IBAction func start_press(_ sender: UIButton) {
+        // Heartbeat effect
+        UIView.animate(withDuration: 0.1, animations: {
+            sender.layer.cornerRadius = 70
+            sender.frame = CGRect(x: sender.frame.origin.x-20, y: sender.frame.origin.y-20, width: 140, height: 140)
+        })
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
+            UIView.animate(withDuration: 0.2, animations: {
+                sender.layer.cornerRadius = 50
+                sender.frame = CGRect(x: sender.frame.origin.x+20, y: sender.frame.origin.y+20, width: 100, height: 100)
+            })
+        })
+    }
+    @IBOutlet weak var start_button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        start_button.layer.cornerRadius = 50
+        start_button.layer.borderWidth = 0
         vars.backgrounds = ["iPhone-Black.jpg", "MapleLeafOnGround.jpg", "MapleLeafOnWater.jpg", "iPhone-Maple1.jpg", "iPhone-Maple2.jpg", "iPhone-Maple3.jpg"]
         //vars.backgrounds[1] = "Resources/MapleLeafOnGround.jpg"
         // Do any additional setup after loading the view, typically from a nib.

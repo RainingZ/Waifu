@@ -7,31 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3F796220049E54001095AC /* ye.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3F795F20049E54001095AC /* ye.png */; };
+		AC3F79682004AC68001095AC /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3F79672004AC68001095AC /* no.png */; };
+		AC3F796A2004BE05001095AC /* home_larger.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3F79692004BE05001095AC /* home_larger.png */; };
 		ACF28B6D2002BDDA00F5F1F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF28B6C2002BDDA00F5F1F8 /* AppDelegate.swift */; };
 		ACF28B6F2002BDDA00F5F1F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF28B6E2002BDDA00F5F1F8 /* ViewController.swift */; };
 		ACF28B722002BDDA00F5F1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B702002BDDA00F5F1F8 /* Main.storyboard */; };
 		ACF28B752002BDDA00F5F1F8 /* Waifu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACF28B732002BDDA00F5F1F8 /* Waifu.xcdatamodeld */; };
 		ACF28B772002BDDA00F5F1F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B762002BDDA00F5F1F8 /* Assets.xcassets */; };
 		ACF28B7A2002BDDA00F5F1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B782002BDDA00F5F1F8 /* LaunchScreen.storyboard */; };
-		ACF28C032002C40C00F5F1F8 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B822002C40C00F5F1F8 /* warning.png */; };
-		ACF28C042002C40C00F5F1F8 /* imm_calc3.zip in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B832002C40C00F5F1F8 /* imm_calc3.zip */; };
 		ACF28C052002C40C00F5F1F8 /* iPhone-Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B842002C40C00F5F1F8 /* iPhone-Black.jpg */; };
-		ACF28C062002C40C00F5F1F8 /* HappyBirthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B852002C40C00F5F1F8 /* HappyBirthday.jpg */; };
 		ACF28C352002C40C00F5F1F8 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BBF2002C40C00F5F1F8 /* home.png */; };
-		ACF28C362002C40C00F5F1F8 /* imm cal5_1024x1024.zip in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BC02002C40C00F5F1F8 /* imm cal5_1024x1024.zip */; };
 		ACF28C372002C40C00F5F1F8 /* MapleLeafOnGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BC12002C40C00F5F1F8 /* MapleLeafOnGround.jpg */; };
-		ACF28C382002C40C00F5F1F8 /* imm cal5_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BC22002C40C00F5F1F8 /* imm cal5_1024x1024.png */; };
 		ACF28C672002C40C00F5F1F8 /* MapleLeafOnWater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BFC2002C40C00F5F1F8 /* MapleLeafOnWater.jpg */; };
 		ACF28C682002C40C00F5F1F8 /* iPhone-Maple1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BFD2002C40C00F5F1F8 /* iPhone-Maple1.jpg */; };
-		ACF28C692002C40C00F5F1F8 /* imm_calc3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BFE2002C40C00F5F1F8 /* imm_calc3.png */; };
 		ACF28C6A2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BFF2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg */; };
-		ACF28C6B2002C40C00F5F1F8 /* happybirthday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACF28C002002C40C00F5F1F8 /* happybirthday.mp3 */; };
 		ACF28C6C2002C40C00F5F1F8 /* iPhone-Maple2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28C012002C40C00F5F1F8 /* iPhone-Maple2.jpg */; };
 		ACF28C6D2002C40C00F5F1F8 /* iPhone-Maple3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28C022002C40C00F5F1F8 /* iPhone-Maple3.jpg */; };
 		ACF28C712002CCC400F5F1F8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF28C702002CCC400F5F1F8 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC3F795F20049E54001095AC /* ye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ye.png; sourceTree = "<group>"; };
+		AC3F79672004AC68001095AC /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
+		AC3F79692004BE05001095AC /* home_larger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_larger.png; sourceTree = "<group>"; };
 		ACF28B692002BDDA00F5F1F8 /* Waifu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waifu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF28B6C2002BDDA00F5F1F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACF28B6E2002BDDA00F5F1F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,19 +39,12 @@
 		ACF28B762002BDDA00F5F1F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF28B792002BDDA00F5F1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACF28B7B2002BDDA00F5F1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACF28B822002C40C00F5F1F8 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
-		ACF28B832002C40C00F5F1F8 /* imm_calc3.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = imm_calc3.zip; sourceTree = "<group>"; };
 		ACF28B842002C40C00F5F1F8 /* iPhone-Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Black.jpg"; sourceTree = "<group>"; };
-		ACF28B852002C40C00F5F1F8 /* HappyBirthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HappyBirthday.jpg; sourceTree = "<group>"; };
 		ACF28BBF2002C40C00F5F1F8 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
-		ACF28BC02002C40C00F5F1F8 /* imm cal5_1024x1024.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "imm cal5_1024x1024.zip"; sourceTree = "<group>"; };
 		ACF28BC12002C40C00F5F1F8 /* MapleLeafOnGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MapleLeafOnGround.jpg; sourceTree = "<group>"; };
-		ACF28BC22002C40C00F5F1F8 /* imm cal5_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imm cal5_1024x1024.png"; sourceTree = "<group>"; };
 		ACF28BFC2002C40C00F5F1F8 /* MapleLeafOnWater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MapleLeafOnWater.jpg; sourceTree = "<group>"; };
 		ACF28BFD2002C40C00F5F1F8 /* iPhone-Maple1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Maple1.jpg"; sourceTree = "<group>"; };
-		ACF28BFE2002C40C00F5F1F8 /* imm_calc3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imm_calc3.png; sourceTree = "<group>"; };
 		ACF28BFF2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "home-ios-7-interface-symbol_318-36185.jpg"; sourceTree = "<group>"; };
-		ACF28C002002C40C00F5F1F8 /* happybirthday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happybirthday.mp3; sourceTree = "<group>"; };
 		ACF28C012002C40C00F5F1F8 /* iPhone-Maple2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Maple2.jpg"; sourceTree = "<group>"; };
 		ACF28C022002C40C00F5F1F8 /* iPhone-Maple3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Maple3.jpg"; sourceTree = "<group>"; };
 		ACF28C702002CCC400F5F1F8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
@@ -104,19 +96,15 @@
 		ACF28B812002C40C00F5F1F8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ACF28B822002C40C00F5F1F8 /* warning.png */,
-				ACF28B832002C40C00F5F1F8 /* imm_calc3.zip */,
+				AC3F79692004BE05001095AC /* home_larger.png */,
+				AC3F79672004AC68001095AC /* no.png */,
+				AC3F795F20049E54001095AC /* ye.png */,
 				ACF28B842002C40C00F5F1F8 /* iPhone-Black.jpg */,
-				ACF28B852002C40C00F5F1F8 /* HappyBirthday.jpg */,
 				ACF28BBF2002C40C00F5F1F8 /* home.png */,
-				ACF28BC02002C40C00F5F1F8 /* imm cal5_1024x1024.zip */,
 				ACF28BC12002C40C00F5F1F8 /* MapleLeafOnGround.jpg */,
-				ACF28BC22002C40C00F5F1F8 /* imm cal5_1024x1024.png */,
 				ACF28BFC2002C40C00F5F1F8 /* MapleLeafOnWater.jpg */,
 				ACF28BFD2002C40C00F5F1F8 /* iPhone-Maple1.jpg */,
-				ACF28BFE2002C40C00F5F1F8 /* imm_calc3.png */,
 				ACF28BFF2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg */,
-				ACF28C002002C40C00F5F1F8 /* happybirthday.mp3 */,
 				ACF28C012002C40C00F5F1F8 /* iPhone-Maple2.jpg */,
 				ACF28C022002C40C00F5F1F8 /* iPhone-Maple3.jpg */,
 			);
@@ -182,21 +170,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF28C6B2002C40C00F5F1F8 /* happybirthday.mp3 in Resources */,
-				ACF28C062002C40C00F5F1F8 /* HappyBirthday.jpg in Resources */,
+				AC3F796220049E54001095AC /* ye.png in Resources */,
+				AC3F796A2004BE05001095AC /* home_larger.png in Resources */,
 				ACF28C672002C40C00F5F1F8 /* MapleLeafOnWater.jpg in Resources */,
 				ACF28C052002C40C00F5F1F8 /* iPhone-Black.jpg in Resources */,
 				ACF28C352002C40C00F5F1F8 /* home.png in Resources */,
 				ACF28C682002C40C00F5F1F8 /* iPhone-Maple1.jpg in Resources */,
 				ACF28C372002C40C00F5F1F8 /* MapleLeafOnGround.jpg in Resources */,
 				ACF28C6D2002C40C00F5F1F8 /* iPhone-Maple3.jpg in Resources */,
+				AC3F79682004AC68001095AC /* no.png in Resources */,
 				ACF28C6A2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg in Resources */,
-				ACF28C042002C40C00F5F1F8 /* imm_calc3.zip in Resources */,
-				ACF28C692002C40C00F5F1F8 /* imm_calc3.png in Resources */,
-				ACF28C362002C40C00F5F1F8 /* imm cal5_1024x1024.zip in Resources */,
-				ACF28C382002C40C00F5F1F8 /* imm cal5_1024x1024.png in Resources */,
 				ACF28C6C2002C40C00F5F1F8 /* iPhone-Maple2.jpg in Resources */,
-				ACF28C032002C40C00F5F1F8 /* warning.png in Resources */,
 				ACF28B7A2002BDDA00F5F1F8 /* LaunchScreen.storyboard in Resources */,
 				ACF28B772002BDDA00F5F1F8 /* Assets.xcassets in Resources */,
 				ACF28B722002BDDA00F5F1F8 /* Main.storyboard in Resources */,
