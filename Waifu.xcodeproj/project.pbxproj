@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF28B6D2002BDDA00F5F1F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF28B6C2002BDDA00F5F1F8 /* AppDelegate.swift */; };
+		ACF28B6F2002BDDA00F5F1F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF28B6E2002BDDA00F5F1F8 /* ViewController.swift */; };
+		ACF28B722002BDDA00F5F1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B702002BDDA00F5F1F8 /* Main.storyboard */; };
+		ACF28B752002BDDA00F5F1F8 /* Waifu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACF28B732002BDDA00F5F1F8 /* Waifu.xcdatamodeld */; };
+		ACF28B772002BDDA00F5F1F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B762002BDDA00F5F1F8 /* Assets.xcassets */; };
+		ACF28B7A2002BDDA00F5F1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B782002BDDA00F5F1F8 /* LaunchScreen.storyboard */; };
+		ACF28C032002C40C00F5F1F8 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B822002C40C00F5F1F8 /* warning.png */; };
+		ACF28C042002C40C00F5F1F8 /* imm_calc3.zip in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B832002C40C00F5F1F8 /* imm_calc3.zip */; };
+		ACF28C052002C40C00F5F1F8 /* iPhone-Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B842002C40C00F5F1F8 /* iPhone-Black.jpg */; };
+		ACF28C062002C40C00F5F1F8 /* HappyBirthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28B852002C40C00F5F1F8 /* HappyBirthday.jpg */; };
+		ACF28C352002C40C00F5F1F8 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BBF2002C40C00F5F1F8 /* home.png */; };
+		ACF28C362002C40C00F5F1F8 /* imm cal5_1024x1024.zip in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BC02002C40C00F5F1F8 /* imm cal5_1024x1024.zip */; };
+		ACF28C372002C40C00F5F1F8 /* MapleLeafOnGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BC12002C40C00F5F1F8 /* MapleLeafOnGround.jpg */; };
+		ACF28C382002C40C00F5F1F8 /* imm cal5_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BC22002C40C00F5F1F8 /* imm cal5_1024x1024.png */; };
+		ACF28C672002C40C00F5F1F8 /* MapleLeafOnWater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BFC2002C40C00F5F1F8 /* MapleLeafOnWater.jpg */; };
+		ACF28C682002C40C00F5F1F8 /* iPhone-Maple1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BFD2002C40C00F5F1F8 /* iPhone-Maple1.jpg */; };
+		ACF28C692002C40C00F5F1F8 /* imm_calc3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BFE2002C40C00F5F1F8 /* imm_calc3.png */; };
+		ACF28C6A2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28BFF2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg */; };
+		ACF28C6B2002C40C00F5F1F8 /* happybirthday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACF28C002002C40C00F5F1F8 /* happybirthday.mp3 */; };
+		ACF28C6C2002C40C00F5F1F8 /* iPhone-Maple2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28C012002C40C00F5F1F8 /* iPhone-Maple2.jpg */; };
+		ACF28C6D2002C40C00F5F1F8 /* iPhone-Maple3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACF28C022002C40C00F5F1F8 /* iPhone-Maple3.jpg */; };
+		ACF28C712002CCC400F5F1F8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF28C702002CCC400F5F1F8 /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACF28B692002BDDA00F5F1F8 /* Waifu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waifu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF28B6C2002BDDA00F5F1F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF28B6E2002BDDA00F5F1F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF28B712002BDDA00F5F1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF28B742002BDDA00F5F1F8 /* Waifu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Waifu.xcdatamodel; sourceTree = "<group>"; };
+		ACF28B762002BDDA00F5F1F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF28B792002BDDA00F5F1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACF28B7B2002BDDA00F5F1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF28B822002C40C00F5F1F8 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		ACF28B832002C40C00F5F1F8 /* imm_calc3.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = imm_calc3.zip; sourceTree = "<group>"; };
+		ACF28B842002C40C00F5F1F8 /* iPhone-Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Black.jpg"; sourceTree = "<group>"; };
+		ACF28B852002C40C00F5F1F8 /* HappyBirthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HappyBirthday.jpg; sourceTree = "<group>"; };
+		ACF28BBF2002C40C00F5F1F8 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		ACF28BC02002C40C00F5F1F8 /* imm cal5_1024x1024.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "imm cal5_1024x1024.zip"; sourceTree = "<group>"; };
+		ACF28BC12002C40C00F5F1F8 /* MapleLeafOnGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MapleLeafOnGround.jpg; sourceTree = "<group>"; };
+		ACF28BC22002C40C00F5F1F8 /* imm cal5_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imm cal5_1024x1024.png"; sourceTree = "<group>"; };
+		ACF28BFC2002C40C00F5F1F8 /* MapleLeafOnWater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MapleLeafOnWater.jpg; sourceTree = "<group>"; };
+		ACF28BFD2002C40C00F5F1F8 /* iPhone-Maple1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Maple1.jpg"; sourceTree = "<group>"; };
+		ACF28BFE2002C40C00F5F1F8 /* imm_calc3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imm_calc3.png; sourceTree = "<group>"; };
+		ACF28BFF2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "home-ios-7-interface-symbol_318-36185.jpg"; sourceTree = "<group>"; };
+		ACF28C002002C40C00F5F1F8 /* happybirthday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happybirthday.mp3; sourceTree = "<group>"; };
+		ACF28C012002C40C00F5F1F8 /* iPhone-Maple2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Maple2.jpg"; sourceTree = "<group>"; };
+		ACF28C022002C40C00F5F1F8 /* iPhone-Maple3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-Maple3.jpg"; sourceTree = "<group>"; };
+		ACF28C702002CCC400F5F1F8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF28B662002BDDA00F5F1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF28B602002BDDA00F5F1F8 = {
+			isa = PBXGroup;
+			children = (
+				ACF28B6B2002BDDA00F5F1F8 /* Waifu */,
+				ACF28B6A2002BDDA00F5F1F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF28B6A2002BDDA00F5F1F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF28B692002BDDA00F5F1F8 /* Waifu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF28B6B2002BDDA00F5F1F8 /* Waifu */ = {
+			isa = PBXGroup;
+			children = (
+				ACF28B812002C40C00F5F1F8 /* Resources */,
+				ACF28B6C2002BDDA00F5F1F8 /* AppDelegate.swift */,
+				ACF28B6E2002BDDA00F5F1F8 /* ViewController.swift */,
+				ACF28C702002CCC400F5F1F8 /* ViewController2.swift */,
+				ACF28B702002BDDA00F5F1F8 /* Main.storyboard */,
+				ACF28B762002BDDA00F5F1F8 /* Assets.xcassets */,
+				ACF28B782002BDDA00F5F1F8 /* LaunchScreen.storyboard */,
+				ACF28B7B2002BDDA00F5F1F8 /* Info.plist */,
+				ACF28B732002BDDA00F5F1F8 /* Waifu.xcdatamodeld */,
+			);
+			path = Waifu;
+			sourceTree = "<group>";
+		};
+		ACF28B812002C40C00F5F1F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACF28B822002C40C00F5F1F8 /* warning.png */,
+				ACF28B832002C40C00F5F1F8 /* imm_calc3.zip */,
+				ACF28B842002C40C00F5F1F8 /* iPhone-Black.jpg */,
+				ACF28B852002C40C00F5F1F8 /* HappyBirthday.jpg */,
+				ACF28BBF2002C40C00F5F1F8 /* home.png */,
+				ACF28BC02002C40C00F5F1F8 /* imm cal5_1024x1024.zip */,
+				ACF28BC12002C40C00F5F1F8 /* MapleLeafOnGround.jpg */,
+				ACF28BC22002C40C00F5F1F8 /* imm cal5_1024x1024.png */,
+				ACF28BFC2002C40C00F5F1F8 /* MapleLeafOnWater.jpg */,
+				ACF28BFD2002C40C00F5F1F8 /* iPhone-Maple1.jpg */,
+				ACF28BFE2002C40C00F5F1F8 /* imm_calc3.png */,
+				ACF28BFF2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg */,
+				ACF28C002002C40C00F5F1F8 /* happybirthday.mp3 */,
+				ACF28C012002C40C00F5F1F8 /* iPhone-Maple2.jpg */,
+				ACF28C022002C40C00F5F1F8 /* iPhone-Maple3.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF28B682002BDDA00F5F1F8 /* Waifu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF28B7E2002BDDA00F5F1F8 /* Build configuration list for PBXNativeTarget "Waifu" */;
+			buildPhases = (
+				ACF28B652002BDDA00F5F1F8 /* Sources */,
+				ACF28B662002BDDA00F5F1F8 /* Frameworks */,
+				ACF28B672002BDDA00F5F1F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waifu;
+			productName = Waifu;
+			productReference = ACF28B692002BDDA00F5F1F8 /* Waifu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF28B612002BDDA00F5F1F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = RainingZ;
+				TargetAttributes = {
+					ACF28B682002BDDA00F5F1F8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACF28B642002BDDA00F5F1F8 /* Build configuration list for PBXProject "Waifu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF28B602002BDDA00F5F1F8;
+			productRefGroup = ACF28B6A2002BDDA00F5F1F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF28B682002BDDA00F5F1F8 /* Waifu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF28B672002BDDA00F5F1F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF28C6B2002C40C00F5F1F8 /* happybirthday.mp3 in Resources */,
+				ACF28C062002C40C00F5F1F8 /* HappyBirthday.jpg in Resources */,
+				ACF28C672002C40C00F5F1F8 /* MapleLeafOnWater.jpg in Resources */,
+				ACF28C052002C40C00F5F1F8 /* iPhone-Black.jpg in Resources */,
+				ACF28C352002C40C00F5F1F8 /* home.png in Resources */,
+				ACF28C682002C40C00F5F1F8 /* iPhone-Maple1.jpg in Resources */,
+				ACF28C372002C40C00F5F1F8 /* MapleLeafOnGround.jpg in Resources */,
+				ACF28C6D2002C40C00F5F1F8 /* iPhone-Maple3.jpg in Resources */,
+				ACF28C6A2002C40C00F5F1F8 /* home-ios-7-interface-symbol_318-36185.jpg in Resources */,
+				ACF28C042002C40C00F5F1F8 /* imm_calc3.zip in Resources */,
+				ACF28C692002C40C00F5F1F8 /* imm_calc3.png in Resources */,
+				ACF28C362002C40C00F5F1F8 /* imm cal5_1024x1024.zip in Resources */,
+				ACF28C382002C40C00F5F1F8 /* imm cal5_1024x1024.png in Resources */,
+				ACF28C6C2002C40C00F5F1F8 /* iPhone-Maple2.jpg in Resources */,
+				ACF28C032002C40C00F5F1F8 /* warning.png in Resources */,
+				ACF28B7A2002BDDA00F5F1F8 /* LaunchScreen.storyboard in Resources */,
+				ACF28B772002BDDA00F5F1F8 /* Assets.xcassets in Resources */,
+				ACF28B722002BDDA00F5F1F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF28B652002BDDA00F5F1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF28B752002BDDA00F5F1F8 /* Waifu.xcdatamodeld in Sources */,
+				ACF28C712002CCC400F5F1F8 /* ViewController2.swift in Sources */,
+				ACF28B6F2002BDDA00F5F1F8 /* ViewController.swift in Sources */,
+				ACF28B6D2002BDDA00F5F1F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACF28B702002BDDA00F5F1F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF28B712002BDDA00F5F1F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF28B782002BDDA00F5F1F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF28B792002BDDA00F5F1F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF28B7C2002BDDA00F5F1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACF28B7D2002BDDA00F5F1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF28B7F2002BDDA00F5F1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52ZV4XCV2H;
+				INFOPLIST_FILE = Waifu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RainingZ.Waifu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF28B802002BDDA00F5F1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52ZV4XCV2H;
+				INFOPLIST_FILE = Waifu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RainingZ.Waifu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF28B642002BDDA00F5F1F8 /* Build configuration list for PBXProject "Waifu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF28B7C2002BDDA00F5F1F8 /* Debug */,
+				ACF28B7D2002BDDA00F5F1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF28B7E2002BDDA00F5F1F8 /* Build configuration list for PBXNativeTarget "Waifu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF28B7F2002BDDA00F5F1F8 /* Debug */,
+				ACF28B802002BDDA00F5F1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACF28B732002BDDA00F5F1F8 /* Waifu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACF28B742002BDDA00F5F1F8 /* Waifu.xcdatamodel */,
+			);
+			currentVersion = ACF28B742002BDDA00F5F1F8 /* Waifu.xcdatamodel */;
+			path = Waifu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACF28B612002BDDA00F5F1F8 /* Project object */;
+}
